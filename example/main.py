@@ -28,6 +28,7 @@ def test_all():
     print(generate_password(16))
 
 def main():
-    testAll()
+    test_all()
 
-main()
+if __name__ == '__main__':
+    main()
