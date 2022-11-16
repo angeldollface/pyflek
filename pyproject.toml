@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "pyflek"
+version = "1.0.0"
+description = "Test the strength of your passwords with the Doll algorithm."
+authors = ["angeldollface <angeldollface666@gmail.com>"]
+readme = "README.markdown"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
